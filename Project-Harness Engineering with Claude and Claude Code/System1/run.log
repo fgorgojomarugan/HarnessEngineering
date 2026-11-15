@@ -1,0 +1,20 @@
+(.venv) PS C:\Users\f.gorgojo.marugan\workspace\UDACITY\cd15315-Claude-AI-Engineer-Harness-Engineering\Build a Claims Intake Agent with a stop_reason-Driven Loop\exercises\03-dynamic-decomposition\solution> python -m claims_intake.run --all   > $env:PROJECT\System1\run.log    
+run_dir: C:\Users\f.gorgojo.marugan\workspace\UDACITY\cd15315-Claude-AI-Engineer-Harness-Engineering\Build a Claims Intake Agent with a stop_reason-Driven Loop\exercises\03-dynamic-decomposition\solution\runs\20261115_171946
+[claim_01_kitchen_fire] policy=POL-1001 expected=routed
+  → outcome=escalated turns=2 clarifications=0 tokens=6370/475 est=$0.0087
+[claim_02_stolen_bike] policy=POL-1007 expected=routed
+  → outcome=escalated turns=2 clarifications=0 tokens=6158/438 est=$0.0083
+[claim_03_water_damage] policy=POL-1004 expected=routed
+  → outcome=escalated turns=3 clarifications=0 tokens=9192/504 est=$0.0117
+[claim_04_neighbor_injury] policy=POL-1002 expected=routed
+  → outcome=routed turns=5 clarifications=0 tokens=17436/876 est=$0.0218
+[claim_05_auto_collision] policy=POL-1003 expected=routed
+  → outcome=routed turns=4 clarifications=0 tokens=15258/995 est=$0.0202
+[claim_06_low_confidence_escalation] policy=POL-1008 expected=escalated
+  → outcome=escalated turns=2 clarifications=0 tokens=6301/508 est=$0.0088
+[claim_07_tree_falls_on_car] policy=POL-1005 expected=routed
+  → outcome=escalated turns=2 clarifications=0 tokens=6186/435 est=$0.0084
+[claim_08_minor_porch_damage] policy=POL-1006 expected=routed
+  → outcome=routed turns=5 clarifications=0 tokens=17514/923 est=$0.0221
+summary: C:\Users\f.gorgojo.marugan\workspace\UDACITY\cd15315-Claude-AI-Engineer-Harness-Engineering\Build a Claims Intake Agent with a stop_reason-Driven Loop\exercises\03-dynamic-decomposition\solution\runs\20261115_171946\summary.md
+total estimated cost: $0.1102
